@@ -1,0 +1,11 @@
+export CLUSTER_NAME=test-sw-als-cluster-1
+export GCP_PROJECT=neon-concord-281106
+export GCP_REGION=asia-southeast1-b
+export ISTIO_VERSION=1.7.1
+export SERVICE_ACCOUNT=default
+export VM_APP1=checkoutservice
+export VM_PORT1=5050
+export VM_APP2=paymentservice
+export VM_PORT2=50051
+export VM_NAMESPACE=default
+export WORK_DIR="./work"

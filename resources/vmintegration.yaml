@@ -1,0 +1,12 @@
+apiVersion: install.istio.io/v1alpha1
+kind: IstioOperator
+spec:
+  values:
+    global:
+      meshExpansion:
+        enabled: true
+  meshConfig:
+    enableEnvoyAccessLogService: true
+    defaultConfig:
+      envoyAccessLogService:
+        address: skywalking-oap.istio-system.svc.cluster.local:11800
